@@ -1,0 +1,37 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { font-family: "Noto Sans KR", sans-serif; color: #3b2f2f; line-height: 1.6; }
+
+.hero {
+  min-height: 90vh;
+  background: linear-gradient(rgba(40, 25, 15, 0.6), rgba(40, 25, 15, 0.6)),
+    url("https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1600") center / cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.nav { display: flex; justify-content: space-between; padding: 20px 8%; }
+.logo { font-size: 1.4rem; font-weight: 700; }
+.navLinks a { color: #fff; text-decoration: none; margin-left: 24px; }
+.navLinks a:hover { text-decoration: underline; }
+
+.heroText { margin: auto; text-align: center; padding: 0 20px; }
+.heroText h1 { font-size: 3rem; margin-bottom: 12px; }
+.heroText p { font-size: 1.2rem; margin-bottom: 28px; }
+.btn { background: #c8863a; color: #fff; padding: 12px 28px; border-radius: 30px; text-decoration: none; }
+.btn:hover { background: #a86d2c; }
+
+.section { padding: 70px 8%; text-align: center; }
+.section.alt { background: #f6efe7; }
+.section h2 { font-size: 2rem; margin-bottom: 20px; }
+
+.menuGrid { list-style: none; max-width: 500px; margin: 0 auto; }
+.menuGrid li { display: flex; justify-content: space-between; padding: 14px 0; border-bottom: 1px dashed #c9b8a5; }
+.menuPrice { font-weight: 700; color: #c8863a; }
+
+.footer { background: #3b2f2f; color: #e8dccd; text-align: center; padding: 24px; font-size: 0.9rem; }
+
+@media (max-width: 600px) {
+  .heroText h1 { font-size: 2.2rem; }
+  .navLinks a { margin-left: 14px; }
+}
