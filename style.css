@@ -35,3 +35,5 @@ body { font-family: "Noto Sans KR", sans-serif; color: #3b2f2f; line-height: 1.6
   .heroText h1 { font-size: 2.2rem; }
   .navLinks a { margin-left: 14px; }
 }
+
+.topBanner { background: #3b2f2f; color: #fff; text-align: center; padding: 10px 20px; font-size: 0.95rem; }
